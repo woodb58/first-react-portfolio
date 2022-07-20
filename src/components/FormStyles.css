@@ -8,6 +8,7 @@ form{
     flex-direction: column;
     padding: 4rem 1rem;
     margin: auto;
+    margin-bottom: 100px;
     max-width: 600px;
 }
 
