@@ -12,6 +12,7 @@ body {
 }
 
 h1,
+h2,
 h4,
 p,
 a {
@@ -27,7 +28,7 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background: rgb(15, 248, 201);
+  background: #5293a1;
   color: #222;
   border: 1px solid #fff;
   font-weight: 600;
@@ -36,11 +37,11 @@ ul{
 
 .btn-light {
   background: transparent;
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .btn:hover {
-  background: rgba(246, 141, 4, 0.2);
+  background: rgba(243, 150, 29, 0.2);
   color: #fff;
   transition: 0.3s;
 }
