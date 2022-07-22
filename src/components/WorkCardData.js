@@ -2,7 +2,7 @@ import project1 from "../assets/bulb.jpg"
 import project2 from "../assets/c_n_k.png"
 import project3 from "../assets/on_this_day.png"
 import project4 from "../assets/note_taker.png"
-import project5 from "../assets/on_this_day.png"
+import project5 from "../assets/weather_dash.png"
 import project6 from "../assets/work_day.png"
 
 
@@ -36,7 +36,7 @@ const ProjectCardData = [
         repo: "https://github.com/woodb58/express-notes"
     },
     {
-        img: project3,
+        img: project5,
         title: "Weather Dashboard",
         text: "",
         live: "https://woodb58.github.io/weather/",
