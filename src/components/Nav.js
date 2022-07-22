@@ -1,6 +1,6 @@
 import "./NavStyles.css";
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
@@ -15,32 +15,67 @@ const Navbar = () => {
       setColor(false);
     }
   };
- 
-  useEffect( () => {
-  window.addEventListener("scroll", changeColor);
-  return () => window.removeEventListener("scroll", changeColor)
-  }, [])
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+    return () => window.removeEventListener("scroll", changeColor);
+  }, []);
 
   return (
     <div className={color ? "nav-bar nav-bar-bg" : "nav-bar"}>
-      <Link to={"/"}>
+      <NavLink to={"/"}>
         <h1>Brian Wood</h1>
-      </Link>
+      </NavLink>
       <ul className={click ? "nav-links active" : "nav-links"}>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "active-class" : "not-active-class"
+            }
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to="/projects">Projects</Link>
+          <NavLink
+            to="/projects"
+            className={({ isActive }) =>
+              isActive ? "active-class" : "not-active-class"
+            }
+          >
+            Projects
+          </NavLink>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <NavLink
+            to="/about"
+            className={({ isActive }) =>
+              isActive ? "active-class" : "not-active-class"
+            }
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              isActive ? "active-class" : "not-active-class"
+            }
+          >
+            Contact
+          </NavLink>
         </li>
         <li>
-          <Link to="/resume">Resume</Link>
+          <NavLink
+            to="/resume"
+            className={({ isActive }) =>
+              isActive ? "active-class" : "not-active-class"
+            }
+          >
+            Resume
+          </NavLink>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
