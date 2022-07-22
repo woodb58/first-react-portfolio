@@ -14,7 +14,7 @@ import {
 const ResumeContent = () => {
   return (
     <div className="resume-container">
-      <h1>Technology</h1>
+      <h1>Technologies</h1>
       <div className="icons">
         <div>
           <FaGithub

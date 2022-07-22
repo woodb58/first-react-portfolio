@@ -8,7 +8,7 @@ const Resume = () => {
     return (
       <div>
         <Nav />
-        <ProjectHero heading="Resume" text="View My Resume" />
+        <ProjectHero heading="Resume" text="Check Out My Resume" />
         <ResumeContent />
         <Footer />
       </div>
