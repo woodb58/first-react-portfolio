@@ -1,0 +1,15 @@
+.resume-container{
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resume-container p, h1{
+    padding: 1rem 0;
+}

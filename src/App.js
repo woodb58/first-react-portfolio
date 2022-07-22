@@ -1,9 +1,10 @@
 import React from 'react';
 import "./index.css"
-import Home from './routes/Home';
-import About from './routes/About';
-import Contact from './routes/Contact';
-import Projects from './routes/Projects';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -15,6 +16,7 @@ function App() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/Resume" element={<Resume />} />
     </Routes>
     </>
   );
