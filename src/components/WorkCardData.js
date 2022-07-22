@@ -25,6 +25,27 @@ const ProjectCardData = [
         live: "github.com",
         repo: "github.com"
     },
+    {
+        img: project3,
+        title: "project title",
+        text: "project description",
+        live: "github.com",
+        repo: "github.com"
+    },
+    {
+        img: project3,
+        title: "project title",
+        text: "project description",
+        live: "github.com",
+        repo: "github.com"
+    },
+    {
+        img: project3,
+        title: "project title",
+        text: "project description",
+        live: "github.com",
+        repo: "github.com"
+    },
     
 ]
 
