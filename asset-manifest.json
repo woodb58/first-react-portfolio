@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.e67c6bbd.css",
+    "main.js": "/my-portfolio/static/js/main.8877a107.js",
+    "static/media/creativity.jpg": "/my-portfolio/static/media/creativity.adaad78a77f778f85a0c.jpg",
+    "static/media/on_this_day.png": "/my-portfolio/static/media/on_this_day.7f9f402b10973b1a6382.png",
+    "static/media/bulb.jpg": "/my-portfolio/static/media/bulb.125305f6e32e9de88dbc.jpg",
+    "static/media/c_n_k.png": "/my-portfolio/static/media/c_n_k.5e9f798daebc79ea3e42.png",
+    "static/media/weather_dash.png": "/my-portfolio/static/media/weather_dash.aae808e9724724ce87e5.png",
+    "static/media/BrianResume.pdf": "/my-portfolio/static/media/BrianResume.f25d98688fc79ffc7b6a.pdf",
+    "static/media/work_day.png": "/my-portfolio/static/media/work_day.5c0080f63fd87c43b10d.png",
+    "static/media/me4.png": "/my-portfolio/static/media/me4.6ac320a0aa684b173f4f.png",
+    "static/media/note_taker.png": "/my-portfolio/static/media/note_taker.67a8cfef3353b3111579.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.e67c6bbd.css.map": "/my-portfolio/static/css/main.e67c6bbd.css.map",
+    "main.8877a107.js.map": "/my-portfolio/static/js/main.8877a107.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e67c6bbd.css",
+    "static/js/main.8877a107.js"
+  ]
+}
