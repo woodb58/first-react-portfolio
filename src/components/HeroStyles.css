@@ -62,6 +62,10 @@
   .hero .content h2 {
     font-size: 1rem;
   }
+
+  .btn, .btn-light {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1400px) {
