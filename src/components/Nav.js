@@ -23,13 +23,13 @@ const Navbar = () => {
 
   return (
     <div className={color ? "nav-bar nav-bar-bg" : "nav-bar"}>
-      <NavLink to={"/"}>
-        <h1>Brian Wood</h1>
+      <NavLink to={"/about"}>
+        <p className="logo">Brian Wood</p>
       </NavLink>
       <ul className={click ? "nav-links active" : "nav-links"}>
         <li>
           <NavLink
-            to="/"
+            to="/my-portfolio"
             className={({ isActive }) =>
               isActive ? "active-class" : "not-active-class"
             }

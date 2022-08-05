@@ -1,4 +1,4 @@
-import project1 from "../assets/bulb.jpg"
+import project1 from "../assets/yearbook.png"
 import project2 from "../assets/c_n_k.png"
 import project3 from "../assets/on_this_day.png"
 import project4 from "../assets/note_taker.png"
@@ -9,10 +9,10 @@ import project6 from "../assets/work_day.png"
 const ProjectCardData = [
     {
         img: project1,
-        title: "Project 3 Coming Soon",
+        title: "MERN Yearbook",
         text: "",
-        live: "github.com",
-        repo: "github.com"
+        live: "https://wrapped-in-bananas.herokuapp.com/",
+        repo: "https://github.com/woodb58/yearbook"
     },
     {
         img: project2,

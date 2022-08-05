@@ -29,6 +29,11 @@
   padding-right: 1rem;
 }
 
+.logo {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .hamburger {
   display: none;
 }
