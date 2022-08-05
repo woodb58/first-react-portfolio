@@ -19,7 +19,7 @@ const ProjectCardData = [
         title: "Coding'N'Kobolds",
         text: "",
         live: "https://codingnkobolds.herokuapp.com/",
-        repo: "https://github.com/woodb58/coding-n-kobold"
+        repo: "https://github.com/woodb58/coding-n-kobolds"
     },
     {
         img: project3,
