@@ -8,25 +8,25 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-container">
-        <Link to="github.com" target="_blank">
+        <a href="https://github.com/woodb58" target="_blank">
           <FaGithub
             size={30}
             style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
             linkTo="github.com"
           />
-        </Link>
-        <Link to="linked.com" target="_blank">
+        </a>
+        <a href="https://twitter.com/" target="_blank">
         <FaTwitter
           size={30}
           style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
         />
-        </Link>
-        <Link to="linkedin.com" target="_blank">
+        </a>
+        <a href="https://www.linkedin.com/in/brian-wood-61111b248/" target="_blank">
         <FaLinkedin
           size={30}
           style={{ color: "white", marginRight: "1rem", marginLeft: "1rem" }}
         />
-        </Link>
+        </a>
       </div>
     </div>
   );
